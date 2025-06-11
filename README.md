@@ -2,6 +2,8 @@
 
 A user-configurable prompt playground for experimenting with OpenAI's GPT models.
 
+🚀 **Try it out**: [Interactive Prompt Playground](https://interactive-prompt-playground-b3xqh2ol6.vercel.app/)
+
 ## Setup
 
 1. Clone the repository
@@ -25,7 +27,7 @@ npm run dev
 
 ## Features
 
-- Model selection (GPT-3.5 Turbo, GPT-4)
+- Model selection (GPT-3.5 Turbo)
 - Parameter control:
   - Temperature (0.0 - 2.0)
   - Max tokens (1 - 1000)
@@ -42,7 +44,7 @@ Never commit your API keys or sensitive information to version control. The `.en
 
 ## Usage
 
-1. Select your desired model (GPT-3.5-Turbo or GPT-4)
+1. Select your desired model (GPT-3.5-Turbo)
 2. Enter your system prompt and user prompt
 3. Adjust the parameters:
    - Temperature: Controls randomness (0.0 = deterministic, 1.0 = creative)
