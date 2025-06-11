@@ -2,7 +2,7 @@
 
 A user-configurable prompt playground for experimenting with OpenAI's GPT models.
 
-🚀 **Try it out**: [Interactive Prompt Playground](https://interactive-prompt-playground-b3xqh2ol6.vercel.app/)
+🚀 **Try it out**: [Interactive Prompt Playground](https://interactive-prompt-playground-sigma.vercel.app/)
 
 ## Setup
 
