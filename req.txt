@@ -1,0 +1,35 @@
+“Interactive Prompt Playground”
+Objective:
+
+Build a user-configurable prompt playground where a user can: Create a prompt that outputs a product description for a given item (e.g., iPhone, Tesla, running shoes). Now run it with varying:
+
+Parameter	Test Values
+temperature	0.0, 0.7, 1.2
+max_tokens	50, 150, 300
+presence_penalty	0.0, 1.5
+frequency_penalty	0.0, 1.5
+Select the model (gpt-3.5-turbo or gpt-4)
+Input system prompt and user prompt
+Adjust:
+Temperature
+Frequency Penalty
+Presence Penalty
+Stop Sequence
+Deliverable:
+
+A grid/table showing all outputs
+2-paragraph reflection on what changed and why
+
+Your project must include:
+
+The playground code (script or web UI).
+
+A README.md with:
+
+How to run the playground
+Description of features (parameter control, model selection, etc.)
+A grid/table showing outputs across different settings.
+
+A 2-paragraph reflection explaining how and why the responses changed with different parameters.
+
+Ensure the app/script runs without errors and avoids exposing API keys.
