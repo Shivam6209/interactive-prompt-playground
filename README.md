@@ -1,19 +1,6 @@
 # Interactive Prompt Playground
 
-An interactive web application for experimenting with OpenAI's GPT models and their parameters. This playground allows users to generate product descriptions while adjusting various parameters to understand how they affect the output.
-
-## Features
-
-- Model Selection (GPT-3.5-Turbo / GPT-4)
-- Parameter Controls:
-  - Temperature (0.0 - 2.0)
-  - Max Tokens (1 - 1000)
-  - Presence Penalty (-2.0 - 2.0)
-  - Frequency Penalty (-2.0 - 2.0)
-- System Prompt Configuration
-- User Prompt Input
-- Real-time Output Display
-- Results Comparison Grid
+A user-configurable prompt playground for experimenting with OpenAI's GPT models.
 
 ## Setup
 
@@ -22,14 +9,36 @@ An interactive web application for experimenting with OpenAI's GPT models and th
    ```bash
    npm install
    ```
-3. Create a `.env` file in the root directory and add your OpenAI API key:
-   ```
+
+3. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   - Add your OpenAI API key to the `.env` file:
+   ```env
    VITE_OPENAI_API_KEY=your_api_key_here
    ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+
+## Running the Application
+
+```bash
+npm run dev
+```
+
+## Features
+
+- Model selection (GPT-3.5 Turbo, GPT-4)
+- Parameter control:
+  - Temperature (0.0 - 2.0)
+  - Max tokens (1 - 1000)
+  - Presence penalty (-2.0 - 2.0)
+  - Frequency penalty (-2.0 - 2.0)
+- System and user prompt customization
+- Results comparison grid
+- Copy functionality for outputs
+- Interactive UI with animations
+
+## Security Note
+
+Never commit your API keys or sensitive information to version control. The `.env` file is ignored by git to prevent accidental exposure of sensitive data.
 
 ## Usage
 
